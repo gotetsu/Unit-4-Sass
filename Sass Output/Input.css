@@ -25,6 +25,7 @@ a {
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
+  .
 }
 
 /* line 30, D:/Treehouse/Unit 4 Sass/Sass Input/Input.scss */
@@ -157,7 +158,8 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, 
+ color .2s ease-in-out;
 }
 
 /* line 148, D:/Treehouse/Unit 4 Sass/Sass Input/Input.scss */
