@@ -1,0 +1,372 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+/* line 6, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 12, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 16, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 25, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 30, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 35, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 40, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 55, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 59, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 65, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 73, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 77, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 81, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 85, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 89, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 93, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 97, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 101, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 105, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 109, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 113, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 117, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 121, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 130, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 137, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 148, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* line 158, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+/* line 168, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.default {
+  background-color: #51ddfc;
+}
+
+/* line 172, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.error {
+  background-color: #e4757a;
+}
+
+/* line 176, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.info {
+  background-color: #927bc1;
+}
+
+/* line 180, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.success {
+  background-color: #63cc82;
+}
+
+/* line 184, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.warning {
+  background-color: #fd7856;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 193, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 197, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+/* line 206, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 220, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 229, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 239, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 251, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 258, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 264, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 268, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 275, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 279, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 283, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 287, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 291, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 295, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 299, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 303, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 307, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 311, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 315, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 319, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 323, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 327, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 333, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 337, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 341, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 345, D:/Treehouse/Unit 4 Sass/scss/styles.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
