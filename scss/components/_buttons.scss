@@ -1,34 +1,46 @@
 /* ============================================= */
-  /*              Buttons                          */
-  /* ============================================= */
-  
-  .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+/*              Buttons                          */
+/* ============================================= */
+
+.row {
+  @include button;
+}
+.default {
+  background-color: $bot-blue;
+  &:hover {
+    background: $blue-dark;
+    transition: 1s;
   }
-  
-  .default {
-    background-color: #51ddfc;
+}
+
+.error {
+  background-color: $bot-salmon;
+  &:hover {
+    background: $salmon-dark;
+    transition: 1s;
   }
-  
-  .error {
-    background-color: #e4757a;
+}
+
+.info {
+  background-color: $bot-purple;
+  &:hover {
+    background: $purple-dark;
+    transition: 1s;
   }
-  
-  .info {
-    background-color: #927bc1;
+}
+
+.success {
+  background-color: $bot-green;
+  &:hover {
+    background: $green-dark;
+    transition: 1s;
   }
-  
-  .success {
-    background-color: #63cc82;
+}
+
+.warning {
+  background-color: $bot-orange;
+  &:hover {
+    background: $orange-dark;
+    transition: 1s;
   }
-  
-  .warning {
-    background-color: #fd7856;
-  }
-  
+}

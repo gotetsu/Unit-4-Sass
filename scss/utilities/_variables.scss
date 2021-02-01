@@ -1,0 +1,25 @@
+/* colors */
+
+$bot-blue: #51ddfc;
+$blue-dark: darken($bot-blue, 25%);
+$blue-light: lighten($bot-blue, 25%);
+
+$bot-salmon: #e4757a;
+$salmon-dark: darken($bot-salmon, 25%);
+$salmon-light: lighten($bot-salmon, 25%);
+
+$bot-purple: #927bc1;
+$purple-dark: darken($bot-purple, 25%);
+$purple-light: lighten($bot-purple, 25%);
+
+$bot-green: #63cc82;
+$green-dark: darken($bot-green, 25%);
+$green-light: lighten($bot-green, 25%);
+
+$bot-orange: #fd7856;
+$orange-dark: darken($bot-orange, 25%);
+$orange-light: lighten($bot-orange, 25%);
+
+// BreaksPoints //
+
+$brk-tablet: 768px;
